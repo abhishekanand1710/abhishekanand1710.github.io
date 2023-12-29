@@ -1,0 +1,131 @@
+// reset
+* {
+	box-sizing: border-box !important;
+	margin: 0;
+}
+
+input, select, textarea, button {
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
+	margin: 0;
+	padding: 0;
+}
+
+// styling the markdown
+
+blockquote {
+  padding: 1.3em;
+  background: $color-text;
+  color: $color-background;
+  border-top: 7px double $color-background;
+  border-bottom: 7px double $color-background;
+  font-size: 1.4em;
+  font-style: italic;
+	margin-bottom: 8px;
+}
+
+code {
+  padding: 2px;
+  font-size: $body-font-size;
+  background: $color-background-code;
+}
+
+p {
+margin-bottom: 1em;
+}
+
+article h1.h1-title {
+	font-weight: 400;
+	border-top: 1px solid $border-top-color;
+	font-family: $header-font-family;
+}
+
+article h1:not(.h1-title), article h2, article h3, article h4, article h5, article h6 {
+  font-weight: bold;
+  border-top: 1px solid $border-top-color;
+	font-family: $header-font-family;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+article {
+	ol {
+		margin-left: 2em;
+		margin-bottom: 1em;
+	}
+	ul {
+		margin-left: 2em;
+		li {
+			margin-top: 0.2em;
+			margin-bottom: 0.2em;
+		}
+	}
+}
+
+h1 {
+  font-size: 2em;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+// homepage clearing
+
+.table { display: table !important; }
+
+.left { float: left; }
+.right { float: right; }
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table
+}
+.clearfix:after { clear: both }
+
+
+// useful repeatable things
+
+.border-top {
+	border-top: 1px solid $border-top-color;
+}
+
+// animations
+
+// @keyframes slideIn {
+//   from {
+//     transform: translateY(50px);
+//     opacity: 0;
+//   }
+//   to {
+//     transform: translateY(0px);
+//     opacity: 1;
+//   }
+// }
+
+// %slideIn {
+//   opacity: 0;
+// 	animation: 1s slideIn ease;
+// 	animation-fill-mode: forwards;
+// }
+
+%highlight {
+	background: linear-gradient(to left, white 50%, $color-highlighter 50%);
+	background-size: 200% 100%;
+	background-position: right bottom;
+	transition: background-position 0.5s ease-out;
+	&:hover {
+		background-position: left bottom;
+	}
+}
+
+ul {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
