@@ -39,9 +39,11 @@ margin-bottom: 1em;
 }
 
 article h1.h1-title {
-	font-weight: 400;
+	font-weight: 700;
 	border-top: 1px solid $border-top-color;
 	font-family: $header-font-family;
+	color: $secondary-color;
+	font-size: 56px;
 }
 
 article h1:not(.h1-title), article h2, article h3, article h4, article h5, article h6 {
@@ -128,4 +130,22 @@ img {
 ul {
 	margin-top: 1em;
 	margin-bottom: 1em;
+}
+
+@media all and (max-width: 480px) {
+	article h1.h1-title {
+		font-size: 32px;
+	}
+}
+
+@media all and (min-width: 481px) and (max-width: 1024px) {
+	article h1.h1-title {
+		font-size: 42px;
+	}
+}
+
+@media all and (min-width: 1025px) and (max-width: 1261px) {
+	article h1.h1-title {
+		font-size: 48px;
+	}
 }

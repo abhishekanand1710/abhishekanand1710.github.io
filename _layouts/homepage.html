@@ -10,17 +10,9 @@
       <div class="home-div-container clearfix">
         <div class="header-left right table" style="text-align: right;">
           <div class="header-right" >
-            {% if site.email %}
             <a href="mailto:{{ site.email }}"><i class="fas fa-envelope"></i></a>
-            {% endif %}
-            {% if site.github %}
             <a href="https://github.com/{{ site.github }}" rel="me"><i class="fab fa-github"></i></a>
-            {% endif %}
-            {% if site.social == "twitter" %}
-            <a href="https://twitter.com/{{ site.social_username }}" rel="me"><i class="fab fa-twitter"></i></a>
-            {% elsif site.social == "fediverse" %}
-            <a href="{{ site.social_username }}" rel="me"><i class="fab fa-mastodon"></i></a>
-            {% endif %}
+            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" rel="me"><i class="fab fa-linkedin"></i></a>
           </div>
           <div class="border-top">
             {% for my_page in site.pages %}
@@ -47,7 +39,7 @@
     </div> -->
     <div class="bottom-container">
       <div class="home-bottom border-top">
-        <h2 style="margin-top: 10px; margin-bottom: 10px;">About me</h2>
+        <h2 style="margin-top: 10px; margin-bottom: 10px;" class="secondary-text">about me</h2>
         <p style="color:#292a2a;">I am a graduate student in Computer Science at University of Southern California. I am passionate about Natural Language Processing and Machine Learning in general, with the aim to develop more practical and data efficient solutions. Currently, I am a Research Assistant at LIME Lab, USC, working with Ziyi Liu on evaluating capabilities of LLMs in strategic gameplay and intent following.</p><br/>
         <p style="color:#292a2a;">Previously, I collaborated with Negar Mokhberian as part of the DataFirst initiative at ISI, USC from Sep'23 to Dec'23 on understanding the importance of discarded minority votes in annotated datasets for hate speech classification. I received the Best Data Science Developer award for my work. In Aug'20, I graduated from Dayanada Sagar College of Engineering, Bengaluru with a B.Tech in Computer Science & Engineering, achieving a University rank of 6. Post graduation, I gained 3 years of software development experience at Leadsquared and Sixt Research & Development, developing microservices for highly scalable distributed systems utilizing Kafka, Spring Boot, AWS services and Elasticsearch.</p>
       </div>

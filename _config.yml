@@ -8,11 +8,7 @@ url: "" # http://example.com for example.
 email: anandabh@usc.edu
 
 # Enter your GitHub username.
-github: test
-
-# Pick from "twitter" or "fediverse".
-social: twitter
-# If "fediverse", enter the whole url for username:
-social_username: test
+github: abhishekanand1710
+linkedin_username: abhishekanand1710
 
 permalink: /:title

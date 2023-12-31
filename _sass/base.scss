@@ -11,13 +11,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.secondary-text {
+  color: $secondary-color;
+}
+
 // nav stuff
 a.site-title {
   font-family: $header-font-family;
 	color: $color-text;
 	font-weight: bold;
 	letter-spacing: -5px;
-	margin-right: 10px;
+	margin-right: 50px;
   margin-top: 10px;
 	font-size: 5em;
 	text-decoration: none;
@@ -280,7 +284,7 @@ footer {
     }
 	}
   .home-blurb-container, .bottom-container {
-    padding: 0 5px 0 5px;
+    padding: 0 20px 0 20px;
   }
   nav {
     margin-top: 0;
@@ -322,7 +326,7 @@ footer {
     }
 	}
   .home-blurb-container, .bottom-container {
-    padding: 0 5px 0 5px;
+    padding: 0 20px 0 20px;
   }
   nav {
     margin-top: 0em;
