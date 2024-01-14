@@ -16,11 +16,12 @@ title: "experience"
   <p class="sub-heading">Dec-2023 - Present</p>
   <h2>Research Assistant</h2>
   <p class="post-date">Language, Intelligence, and Model Ethics (LIME) Lab, USC</p>
+  <div class="post-content"><p>Working on intent following and social intelligence capabilities of LLM-based agents in deceptive settings.</p></div>
 </div>
 
 <div class="post-block">
   <p class="sub-heading">Sep-2023 - Dec-2023</p>
-  <h2 >NLP Research Assistant</h2>
+  <h2 >Research Assistant</h2>
   <p class="post-date">DataFirst, Information Sciences Institute, USC</p>
   <div class="post-content"><p>Evaluated majority vote and multi-annotator language models to analyze the relation between noise and bias in annotated datasets for hate speech classification. Utilized noise detection techniques and prediction uncertainty measures to demonstrate the importance of minority votes for subjective tasks.</p>
 </div>
