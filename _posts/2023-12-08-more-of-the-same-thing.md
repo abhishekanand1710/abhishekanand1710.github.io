@@ -1,6 +1,8 @@
 ---
 layout: page
 title: "Investigating Variability in Datasets and It's Impact on Model Robustness"
+paperUrl: "https://github.com/abhishekanand1710/more-of-the-same-thing/blob/main/CSML_Project_Report.pdf"
+repoUrl: "https://github.com/abhishekanand1710/more-of-the-same-thing"
 categories:
 - projects
 tags:

@@ -192,7 +192,7 @@ div.home-bottom {
 }
 
 .fa:hover, .far:hover, .fas:hover, .fab:hover {
-	color: #0aeba5;
+	color: #009DDB;
 }
 
 // posts
@@ -229,13 +229,21 @@ footer {
 .post-block {
   margin-top: 0.5em;
   margin-bottom: 1.5em;
+  i {
+    font-size: medium;
+  }
   a {
     background: transparent;
   }
   h2 {
     font-family: $header-font-family;
     border-top: 0px solid transparent;
-    margin: -10px 0 0 0;
+    margin: 0 0 0 0;
+  }
+  h3 {
+    font-family: $header-font-family;
+    border-top: 0px solid transparent;
+    margin: 0 0 0 0;
   }
   h2 a:hover {
     text-decoration: none;
