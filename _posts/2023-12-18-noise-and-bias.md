@@ -1,11 +1,14 @@
 ---
 layout: page
-title: "Understanding Relation Between Noise and Bias in Annotated Datasets"
+title: "Don't Blame the Data, Blame the Model: Understanding Noise and Bias When Learning from Subjective Annotations"
 paperUrl: ""
 repoUrl: "https://github.com/abhishekanand1710/noise-and-bias"
 categories:
-- projects
+- publications
 tags:
 - research
 ---
-Is there a relation between hard-to-learn samples and annotator disagreement for language models? Does discarding minority votes lead to a biased perspective? Can multi-annotator models learn valuable information from minority votes that are generally discarded as noise? We answer these questions by training standard single ground truth (RoBERTa-base) and multi-annotator (DisCo) models and evaluate prediction confidence using Dataset Cartography.
+Abhishek Anand, Negar Mokhberian, Prathyusha Naresh Kumar, Anweasha Saha, Zihao He, Ashwin Rao, Fred Morstatter, Kristina Lerman (Under Review)
+
+
+<!-- We examine how hard-to-learn samples relate to annotator disagreement in language models, and whether discarding minority votes leads to a biased perspective. We also investigate if multi-annotator models can benefit from minority votes, using Dataset Cartography for evaluation. -->

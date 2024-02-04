@@ -8,4 +8,4 @@ categories:
 tags:
 - research
 ---
-How much redundancy is present in a dataset? Does training on the full dataset with high redundancy lead to overfitting to the data distribution and reduced generalization capabilities? How can we measure the variety present in a dataset without training? The project answers these questions by introducing a variety estimation technique for NLP datasets using pre-trained embeddings and PCA. It also highlights the issue of overfitting to domain data, showing that training on the entire dataset results in subpar out-of-distribution performance.
+Our project addresses dataset redundancy and its impact on model generalization. We introduce a novel technique for estimating dataset variety for NLP tasks using pre-trained embeddings and PCA, revealing the consequences of overfitting to domain data and its effect on out-of-distribution performance.

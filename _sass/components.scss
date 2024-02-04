@@ -40,10 +40,11 @@ margin-bottom: 1em;
 
 article h1.h1-title {
 	font-weight: 700;
+	margin-top: -40px;
 	border-top: 1px solid $border-top-color;
 	font-family: $header-font-family;
 	color: $secondary-color;
-	font-size: 56px;
+	font-size: 48px;
 }
 
 article h1:not(.h1-title), article h2, article h3, article h4, article h5, article h6 {
@@ -140,12 +141,12 @@ ul {
 
 @media all and (min-width: 481px) and (max-width: 1024px) {
 	article h1.h1-title {
-		font-size: 42px;
+		font-size: 36px;
 	}
 }
 
 @media all and (min-width: 1025px) and (max-width: 1261px) {
 	article h1.h1-title {
-		font-size: 48px;
+		font-size: 42px;
 	}
 }
